@@ -9,5 +9,5 @@
     containers:
      -name: voting-app
       image: dockersamples/examplevotingapp_vote
-     ports:
+      ports:
        -container: 80
