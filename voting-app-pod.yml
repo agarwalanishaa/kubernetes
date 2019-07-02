@@ -7,7 +7,7 @@
       app: demo-voting-app
  spec:
     containers:
-     -name: voting-app
+     - name: voting-app
       image: dockersamples/examplevotingapp_vote
       ports:
-       -container: 80
+       - containerPort: 80
